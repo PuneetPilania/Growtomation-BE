@@ -1,0 +1,46 @@
+.projectsView__main {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.active_project_name {
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.active_project_main {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: -15px;
+}
+
+.active_project_submain {
+  display: flex;
+}
+
+.active_project_submain p:first-child {
+  font-weight: 800;
+  font-size: 17px;
+  margin-right: 20px;
+}
+
+.a_project_desc {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.box {
+  margin-top: 30px;
+  height: 100;
+  background-color: smokewhite;
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 5px;
+}
+
+.box :hover {
+  background-color: #fffafa;
+  opacity: 0.9, 0.8, 0.7;
+  cursor: pointer;
+}
